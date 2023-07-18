@@ -109,7 +109,7 @@
 
 	<GeneDef ParentName="EBSGAging">
 		<defName>EBSG_VerySlowAging</defName>
-		<label>very fast aging</label>
+		<label>very slow aging</label>
 		<description>Carriers of this gene will age at a much slower rate.</description>
 		<iconPath>EBSG/Gene_SlowerAging</iconPath>
 		<displayOrderInCategory>1</displayOrderInCategory>
