@@ -15,6 +15,24 @@
     </GeneDef>
 
 	<GeneDef ParentName="EBSGAging">
+		<defName>EBSG_ExtremelyFastAging</defName>
+		<label>extremely fast aging</label>
+		<description>Carriers of this gene will age at a greatly increased rate.</description>
+		<iconPath>EBSG/Gene_FasterAging</iconPath>
+		<displayOrderInCategory>7</displayOrderInCategory>
+		<biostatMet>4</biostatMet>
+        <statFactors>
+            <LearningRateFactor>2</LearningRateFactor>
+        </statFactors>
+		<biologicalAgeTickFactorFromAgeCurve>
+			<points>
+				<li>(13, 2)</li>
+				<li>(18, 2)</li>
+			</points>
+		</biologicalAgeTickFactorFromAgeCurve>
+	</GeneDef>
+
+	<GeneDef ParentName="EBSGAging">
 		<defName>EBSG_VeryFastAging</defName>
 		<label>very fast aging</label>
 		<description>Carriers of this gene will age at a greatly increased rate.</description>
@@ -22,12 +40,12 @@
 		<displayOrderInCategory>6</displayOrderInCategory>
 		<biostatMet>3</biostatMet>
         <statFactors>
-            <LearningRateFactor>1.9</LearningRateFactor>
+            <LearningRateFactor>1.75</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
-				<li>(13, 1.9)</li>
-				<li>(18, 1.9)</li>
+				<li>(13, 1.75)</li>
+				<li>(18, 1.75)</li>
 			</points>
 		</biologicalAgeTickFactorFromAgeCurve>
 	</GeneDef>
@@ -40,12 +58,12 @@
 		<displayOrderInCategory>5</displayOrderInCategory>
 		<biostatMet>2</biostatMet>
         <statFactors>
-            <LearningRateFactor>1.6</LearningRateFactor>
+            <LearningRateFactor>1.5</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
-				<li>(13, 1.6)</li>
-				<li>(18, 1.6)</li>
+				<li>(13, 1.5)</li>
+				<li>(18, 1.5)</li>
 			</points>
 		</biologicalAgeTickFactorFromAgeCurve>
 	</GeneDef>
@@ -57,16 +75,13 @@
 		<iconPath>EBSG/Gene_FasterAging</iconPath>
 		<displayOrderInCategory>4</displayOrderInCategory>
 		<biostatMet>1</biostatMet>
-		<customEffectDescriptions>
-			<li>Age will advance 30% faster.</li>
-		</customEffectDescriptions>
         <statFactors>
-            <LearningRateFactor>1.3</LearningRateFactor>
+            <LearningRateFactor>1.25</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
-				<li>(13, 1.3)</li>
-				<li>(18, 1.3)</li>
+				<li>(13, 1.25)</li>
+				<li>(18, 1.25)</li>
 			</points>
 		</biologicalAgeTickFactorFromAgeCurve>
 	</GeneDef>
@@ -79,12 +94,12 @@
 		<displayOrderInCategory>3</displayOrderInCategory>
 		<biostatMet>-1</biostatMet>
         <statFactors>
-            <LearningRateFactor>0.7</LearningRateFactor>
+            <LearningRateFactor>0.75</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
-				<li>(13, 0.7)</li>
-				<li>(18, 0.7)</li>
+				<li>(13, 0.75)</li>
+				<li>(18, 0.75)</li>
 			</points>
 		</biologicalAgeTickFactorFromAgeCurve>
 	</GeneDef>
@@ -97,12 +112,12 @@
 		<displayOrderInCategory>2</displayOrderInCategory>
 		<biostatMet>-2</biostatMet>
         <statFactors>
-            <LearningRateFactor>0.4</LearningRateFactor>
+            <LearningRateFactor>0.5</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
-				<li>(13, 0.4)</li>
-				<li>(18, 0.4)</li>
+				<li>(13, 0.5)</li>
+				<li>(18, 0.5)</li>
 			</points>
 		</biologicalAgeTickFactorFromAgeCurve>
 	</GeneDef>
@@ -115,12 +130,30 @@
 		<displayOrderInCategory>1</displayOrderInCategory>
 		<biostatMet>-3</biostatMet>
         <statFactors>
-            <LearningRateFactor>0.1</LearningRateFactor>
+            <LearningRateFactor>0.25</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
-				<li>(13, 0.1)</li>
-				<li>(18, 0.1)</li>
+				<li>(13, 0.25)</li>
+				<li>(18, 0.25)</li>
+			</points>
+		</biologicalAgeTickFactorFromAgeCurve>
+	</GeneDef>
+
+	<GeneDef ParentName="EBSGAging">
+		<defName>EBSG_ExtremelyFastAging_Child</defName>
+		<label>extremely short childhood</label>
+		<description>Carriers of this gene will age at a greatly increased rate as a child. This will cause it to take less time for the child to be ready to work.</description>
+		<iconPath>EBSG/Gene_LongerChildhood</iconPath>
+		<displayOrderInCategory>17</displayOrderInCategory>
+		<biostatMet>-4</biostatMet>
+        <statFactors>
+            <LearningRateFactor>2</LearningRateFactor>
+        </statFactors>
+		<biologicalAgeTickFactorFromAgeCurve>
+			<points>
+				<li>(13, 2)</li>
+				<li>(18, 1)</li>
 			</points>
 		</biologicalAgeTickFactorFromAgeCurve>
 	</GeneDef>
@@ -133,11 +166,11 @@
 		<displayOrderInCategory>16</displayOrderInCategory>
 		<biostatMet>-3</biostatMet>
         <statFactors>
-            <LearningRateFactor>1.9</LearningRateFactor>
+            <LearningRateFactor>1.75</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
-				<li>(13, 1.9)</li>
+				<li>(13, 1.75)</li>
 				<li>(18, 1)</li>
 			</points>
 		</biologicalAgeTickFactorFromAgeCurve>
@@ -151,11 +184,11 @@
 		<displayOrderInCategory>15</displayOrderInCategory>
 		<biostatMet>-2</biostatMet>
         <statFactors>
-            <LearningRateFactor>1.6</LearningRateFactor>
+            <LearningRateFactor>1.5</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
-				<li>(13, 1.6)</li>
+				<li>(13, 1.5)</li>
 				<li>(18, 1)</li>
 			</points>
 		</biologicalAgeTickFactorFromAgeCurve>
@@ -168,15 +201,12 @@
 		<iconPath>EBSG/Gene_LongerChildhood</iconPath>
 		<displayOrderInCategory>14</displayOrderInCategory>
 		<biostatMet>-1</biostatMet>
-		<customEffectDescriptions>
-			<li>Age will advance 30% faster.</li>
-		</customEffectDescriptions>
         <statFactors>
-            <LearningRateFactor>1.3</LearningRateFactor>
+            <LearningRateFactor>1.25</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
-				<li>(13, 1.3)</li>
+				<li>(13, 1.25)</li>
 				<li>(18, 1)</li>
 			</points>
 		</biologicalAgeTickFactorFromAgeCurve>
@@ -190,11 +220,11 @@
 		<displayOrderInCategory>13</displayOrderInCategory>
 		<biostatMet>-1</biostatMet>
         <statFactors>
-            <LearningRateFactor>0.7</LearningRateFactor>
+            <LearningRateFactor>0.75</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
-				<li>(13, 0.7)</li>
+				<li>(13, 0.75)</li>
 				<li>(18, 1)</li>
 			</points>
 		</biologicalAgeTickFactorFromAgeCurve>
@@ -208,11 +238,11 @@
 		<displayOrderInCategory>12</displayOrderInCategory>
 		<biostatMet>-2</biostatMet>
         <statFactors>
-            <LearningRateFactor>0.4</LearningRateFactor>
+            <LearningRateFactor>0.5</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
-				<li>(13, 0.4)</li>
+				<li>(13, 0.5)</li>
 				<li>(18, 1)</li>
 			</points>
 		</biologicalAgeTickFactorFromAgeCurve>
@@ -226,11 +256,11 @@
 		<displayOrderInCategory>11</displayOrderInCategory>
 		<biostatMet>-3</biostatMet>
         <statFactors>
-            <LearningRateFactor>0.1</LearningRateFactor>
+            <LearningRateFactor>0.25</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
-				<li>(13, 0.1)</li>
+				<li>(13, 0.25)</li>
 				<li>(18, 1)</li>
 			</points>
 		</biologicalAgeTickFactorFromAgeCurve>
