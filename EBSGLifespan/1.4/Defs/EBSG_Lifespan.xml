@@ -14,6 +14,14 @@
 		<biostatCpx>1</biostatCpx>
     </GeneDef>
 
+    <GeneDef Abstract="true" Name="EBSGChildAging">
+        <displayCategory>EBSG_Lifespan</displayCategory>
+		<exclusionTags>
+			<li>EBSG_ChildAging</li>
+		</exclusionTags>
+		<biostatCpx>1</biostatCpx>
+    </GeneDef>
+
 	<GeneDef ParentName="EBSGAging">
 		<defName>EBSG_ExtremelyFastAging</defName>
 		<label>extremely fast aging</label>
@@ -158,7 +166,7 @@
 		</biologicalAgeTickFactorFromAgeCurve>
 	</GeneDef>
 
-	<GeneDef ParentName="EBSGAging">
+	<GeneDef ParentName="EBSGChildAging">
 		<defName>EBSG_VeryFastAging_Child</defName>
 		<label>very short childhood</label>
 		<description>Carriers of this gene will age at a greatly increased rate as a child. This will cause it to take less time for the child to be ready to work.</description>
@@ -176,7 +184,7 @@
 		</biologicalAgeTickFactorFromAgeCurve>
 	</GeneDef>
 
-	<GeneDef ParentName="EBSGAging">
+	<GeneDef ParentName="EBSGChildAging">
 		<defName>EBSG_FastAging_Child</defName>
 		<label>shorter childhood</label>
 		<description>Carriers of this gene will age at an increased rate as a child. This will cause it to take less time for the child to be ready to work.</description>
@@ -194,7 +202,7 @@
 		</biologicalAgeTickFactorFromAgeCurve>
 	</GeneDef>
 
-	<GeneDef ParentName="EBSGAging">
+	<GeneDef ParentName="EBSGChildAging">
 		<defName>EBSG_SlightlyFastAging_Child</defName>
 		<label>slightly shorter childhood</label>
 		<description>Carriers of this gene will age at a slightly increased rate as a child. This will cause it to take less time for the child to be ready to work.</description>
@@ -212,7 +220,7 @@
 		</biologicalAgeTickFactorFromAgeCurve>
 	</GeneDef>
 
-	<GeneDef ParentName="EBSGAging">
+	<GeneDef ParentName="EBSGChildAging">
 		<defName>EBSG_SlightlySlowAging_Child</defName>
 		<label>slightly longer childhood</label>
 		<description>Carriers of this gene will age at a slightly slower rate as a child. This will allow the colony to gain mood bonuses from happy children for a longer amount of time.</description>
@@ -230,7 +238,7 @@
 		</biologicalAgeTickFactorFromAgeCurve>
 	</GeneDef>
 
-	<GeneDef ParentName="EBSGAging">
+	<GeneDef ParentName="EBSGChildAging">
 		<defName>EBSG_SlowAging_Child</defName>
 		<label>longer childhood</label>
 		<description>Carriers of this gene will age at a slower rate as a child. This will allow the colony to gain mood bonuses from happy children for a longer amount of time.</description>
@@ -248,7 +256,7 @@
 		</biologicalAgeTickFactorFromAgeCurve>
 	</GeneDef>
 
-	<GeneDef ParentName="EBSGAging">
+	<GeneDef ParentName="EBSGChildAging">
 		<defName>EBSG_VerySlowAging_Child</defName>
 		<label>very long childhood</label>
 		<description>Carriers of this gene will age at a much slower rate as a child. This will allow the colony to gain mood bonuses from happy children for a longer amount of time.</description>
