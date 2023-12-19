@@ -148,7 +148,7 @@
 		</biologicalAgeTickFactorFromAgeCurve>
 	</GeneDef>
 
-	<GeneDef ParentName="EBSGAging">
+	<GeneDef ParentName="EBSGChildAging">
 		<defName>EBSG_ExtremelyFastAging_Child</defName>
 		<label>extremely short childhood</label>
 		<description>Carriers of this gene will age at a greatly increased rate as a child. This will cause it to take less time for the child to be ready to work.</description>
