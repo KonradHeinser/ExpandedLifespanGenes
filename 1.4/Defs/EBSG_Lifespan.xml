@@ -31,6 +31,7 @@
 		<biostatMet>4</biostatMet>
         <statFactors>
             <LearningRateFactor>2</LearningRateFactor>
+			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">2</EBSG_GrowthPointRate>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -49,6 +50,7 @@
 		<biostatMet>3</biostatMet>
         <statFactors>
             <LearningRateFactor>1.75</LearningRateFactor>
+			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">1.75</EBSG_GrowthPointRate>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -67,6 +69,7 @@
 		<biostatMet>2</biostatMet>
         <statFactors>
             <LearningRateFactor>1.5</LearningRateFactor>
+			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">1.5</EBSG_GrowthPointRate>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -85,6 +88,7 @@
 		<biostatMet>1</biostatMet>
         <statFactors>
             <LearningRateFactor>1.25</LearningRateFactor>
+			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">1.25</EBSG_GrowthPointRate>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -103,6 +107,7 @@
 		<biostatMet>-1</biostatMet>
         <statFactors>
             <LearningRateFactor>0.75</LearningRateFactor>
+			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">0.75</EBSG_GrowthPointRate>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -121,6 +126,7 @@
 		<biostatMet>-2</biostatMet>
         <statFactors>
             <LearningRateFactor>0.5</LearningRateFactor>
+			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">0.5</EBSG_GrowthPointRate>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -139,6 +145,7 @@
 		<biostatMet>-3</biostatMet>
         <statFactors>
             <LearningRateFactor>0.25</LearningRateFactor>
+			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">0.25</EBSG_GrowthPointRate>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -157,6 +164,7 @@
 		<biostatMet>-4</biostatMet>
         <statFactors>
             <LearningRateFactor>2</LearningRateFactor>
+			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">2</EBSG_GrowthPointRate>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -175,6 +183,7 @@
 		<biostatMet>-3</biostatMet>
         <statFactors>
             <LearningRateFactor>1.75</LearningRateFactor>
+			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">1.75</EBSG_GrowthPointRate>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -193,6 +202,7 @@
 		<biostatMet>-2</biostatMet>
         <statFactors>
             <LearningRateFactor>1.5</LearningRateFactor>
+			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">1.5</EBSG_GrowthPointRate>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -211,6 +221,7 @@
 		<biostatMet>-1</biostatMet>
         <statFactors>
             <LearningRateFactor>1.25</LearningRateFactor>
+			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">1.25</EBSG_GrowthPointRate>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -229,6 +240,7 @@
 		<biostatMet>-1</biostatMet>
         <statFactors>
             <LearningRateFactor>0.75</LearningRateFactor>
+			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">0.75</EBSG_GrowthPointRate>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -247,6 +259,7 @@
 		<biostatMet>-2</biostatMet>
         <statFactors>
             <LearningRateFactor>0.5</LearningRateFactor>
+			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">0.5</EBSG_GrowthPointRate>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -265,6 +278,7 @@
 		<biostatMet>-3</biostatMet>
         <statFactors>
             <LearningRateFactor>0.25</LearningRateFactor>
+			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">0.25</EBSG_GrowthPointRate>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
