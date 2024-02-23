@@ -31,8 +31,7 @@
 		<iconPath>EBSG/Gene_FasterAging</iconPath>
 		<displayOrderInCategory>7</displayOrderInCategory>
         <statFactors>
-            <LearningRateFactor>2</LearningRateFactor>
-			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">2</EBSG_GrowthPointRate>
+            <LearningRateFactor>1.80</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -49,8 +48,7 @@
 		<iconPath>EBSG/Gene_FasterAging</iconPath>
 		<displayOrderInCategory>6</displayOrderInCategory>
         <statFactors>
-            <LearningRateFactor>1.75</LearningRateFactor>
-			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">1.75</EBSG_GrowthPointRate>
+            <LearningRateFactor>1.60</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -67,8 +65,7 @@
 		<iconPath>EBSG/Gene_FasterAging</iconPath>
 		<displayOrderInCategory>5</displayOrderInCategory>
         <statFactors>
-            <LearningRateFactor>1.5</LearningRateFactor>
-			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">1.5</EBSG_GrowthPointRate>
+            <LearningRateFactor>1.40</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -85,8 +82,7 @@
 		<iconPath>EBSG/Gene_FasterAging</iconPath>
 		<displayOrderInCategory>4</displayOrderInCategory>
         <statFactors>
-            <LearningRateFactor>1.25</LearningRateFactor>
-			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">1.25</EBSG_GrowthPointRate>
+            <LearningRateFactor>1.20</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -103,8 +99,7 @@
 		<iconPath>EBSG/Gene_SlowerAging</iconPath>
 		<displayOrderInCategory>3</displayOrderInCategory>
         <statFactors>
-            <LearningRateFactor>0.75</LearningRateFactor>
-			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">0.75</EBSG_GrowthPointRate>
+            <LearningRateFactor>0.80</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -121,8 +116,7 @@
 		<iconPath>EBSG/Gene_SlowerAging</iconPath>
 		<displayOrderInCategory>2</displayOrderInCategory>
         <statFactors>
-            <LearningRateFactor>0.5</LearningRateFactor>
-			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">0.5</EBSG_GrowthPointRate>
+            <LearningRateFactor>0.60</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -139,8 +133,7 @@
 		<iconPath>EBSG/Gene_SlowerAging</iconPath>
 		<displayOrderInCategory>1</displayOrderInCategory>
         <statFactors>
-            <LearningRateFactor>0.25</LearningRateFactor>
-			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">0.25</EBSG_GrowthPointRate>
+            <LearningRateFactor>0.40</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -157,8 +150,7 @@
 		<iconPath>EBSG/Gene_LongerChildhood</iconPath>
 		<displayOrderInCategory>17</displayOrderInCategory>
         <statFactors>
-            <LearningRateFactor>2</LearningRateFactor>
-			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">2</EBSG_GrowthPointRate>
+            <LearningRateFactor>1.80</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -175,8 +167,7 @@
 		<iconPath>EBSG/Gene_LongerChildhood</iconPath>
 		<displayOrderInCategory>16</displayOrderInCategory>
         <statFactors>
-            <LearningRateFactor>1.75</LearningRateFactor>
-			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">1.75</EBSG_GrowthPointRate>
+            <LearningRateFactor>1.60</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -193,8 +184,7 @@
 		<iconPath>EBSG/Gene_LongerChildhood</iconPath>
 		<displayOrderInCategory>15</displayOrderInCategory>
         <statFactors>
-            <LearningRateFactor>1.5</LearningRateFactor>
-			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">1.5</EBSG_GrowthPointRate>
+            <LearningRateFactor>1.40</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -211,8 +201,7 @@
 		<iconPath>EBSG/Gene_LongerChildhood</iconPath>
 		<displayOrderInCategory>14</displayOrderInCategory>
         <statFactors>
-            <LearningRateFactor>1.25</LearningRateFactor>
-			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">1.25</EBSG_GrowthPointRate>
+            <LearningRateFactor>1.20</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -229,8 +218,7 @@
 		<iconPath>EBSG/Gene_ShorterChildhood</iconPath>
 		<displayOrderInCategory>13</displayOrderInCategory>
         <statFactors>
-            <LearningRateFactor>0.75</LearningRateFactor>
-			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">0.75</EBSG_GrowthPointRate>
+            <LearningRateFactor>0.80</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -247,8 +235,7 @@
 		<iconPath>EBSG/Gene_ShorterChildhood</iconPath>
 		<displayOrderInCategory>12</displayOrderInCategory>
         <statFactors>
-            <LearningRateFactor>0.5</LearningRateFactor>
-			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">0.5</EBSG_GrowthPointRate>
+            <LearningRateFactor>0.60</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
@@ -265,8 +252,7 @@
 		<iconPath>EBSG/Gene_ShorterChildhood</iconPath>
 		<displayOrderInCategory>11</displayOrderInCategory>
         <statFactors>
-            <LearningRateFactor>0.25</LearningRateFactor>
-			<EBSG_GrowthPointRate MayRequire="EBSG.Framework">0.25</EBSG_GrowthPointRate>
+            <LearningRateFactor>0.40</LearningRateFactor>
         </statFactors>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>

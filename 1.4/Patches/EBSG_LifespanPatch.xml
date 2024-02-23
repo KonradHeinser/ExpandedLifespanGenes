@@ -62,4 +62,72 @@
             <value><li>EBSG_SlightlySlowerAging</li></value>
         </match>
     </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/StatDef[defName="EBSG_GrowthPointRate"]</xpath>
+        <value>
+            <Operation Class="PatchOperationReplace">
+                <xpath>Defs/GeneDef[defName="EBSG_ExtremelyFastAging" or defName="EBSG_ExtremelyFastAging_Child"]/statFactors</xpath>
+                <value>
+                    <statFactors>
+                        <EBSG_GrowthPointRate>1.80</EBSG_GrowthPointRate>
+                    </statFactors>
+                </value>
+            </Operation>
+        
+            <Operation Class="PatchOperationReplace">
+                <xpath>Defs/GeneDef[defName="EBSG_VeryFastAging" or defName="EBSG_VeryFastAging_Child"]/statFactors</xpath>
+                <value>
+                    <statFactors>
+                        <EBSG_GrowthPointRate>1.60</EBSG_GrowthPointRate>
+                    </statFactors>
+                </value>
+            </Operation>
+        
+            <Operation Class="PatchOperationReplace">
+                <xpath>Defs/GeneDef[defName="EBSG_FastAging" or defName="EBSG_FastAging_Child"]/statFactors</xpath>
+                <value>
+                    <statFactors>
+                        <EBSG_GrowthPointRate>1.40</EBSG_GrowthPointRate>
+                    </statFactors>
+                </value>
+            </Operation>
+        
+            <Operation Class="PatchOperationReplace">
+                <xpath>Defs/GeneDef[defName="EBSG_SlightlyFastAging" or defName="EBSG_SlightlyFastAging_Child"]/statFactors</xpath>
+                <value>
+                    <statFactors>
+                        <EBSG_GrowthPointRate>1.20</EBSG_GrowthPointRate>
+                    </statFactors>
+                </value>
+            </Operation>
+        
+            <Operation Class="PatchOperationReplace">
+                <xpath>Defs/GeneDef[defName="EBSG_SlightlySlowAging" or defName="EBSG_SlightlySlowAging_Child"]/statFactors</xpath>
+                <value>
+                    <statFactors>
+                        <EBSG_GrowthPointRate>0.80</EBSG_GrowthPointRate>
+                    </statFactors>
+                </value>
+            </Operation>
+        
+            <Operation Class="PatchOperationReplace">
+                <xpath>Defs/GeneDef[defName="EBSG_SlowAging" or defName="EBSG_SlowAging_Child"]/statFactors</xpath>
+                <value>
+                    <statFactors>
+                        <EBSG_GrowthPointRate>0.60</EBSG_GrowthPointRate>
+                    </statFactors>
+                </value>
+            </Operation>
+        
+            <Operation Class="PatchOperationReplace">
+                <xpath>Defs/GeneDef[defName="EBSG_VerySlowAging" or defName="EBSG_VerySlowAging_Child"]/statFactors</xpath>
+                <value>
+                    <statFactors>
+                        <EBSG_GrowthPointRate>0.40</EBSG_GrowthPointRate>
+                    </statFactors>
+                </value>
+            </Operation>        
+        </value>
+    </Operation>
 </Patch>
