@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneCategoryDef>
+        <defName>EBSG_Lifespan</defName>
+        <label>lifespan</label>
+        <displayPriorityInXenotype>499.99</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+    <GeneDef Abstract="true" Name="EBSGAging">
+        <displayCategory>EBSG_Lifespan</displayCategory>
+		<exclusionTags>
+			<li>EBSG_Aging</li>
+		</exclusionTags>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef Abstract="true" Name="EBSGChildAging">
+        <displayCategory>EBSG_Lifespan</displayCategory>
+		<exclusionTags>
+			<li>EBSG_ChildAging</li>
+		</exclusionTags>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+    </GeneDef>
+
+	<GeneDef ParentName="EBSGAging">
+		<defName>EBSG_ExtremelyFastAging</defName>
+		<label>extremely fast aging</label>
+		<description>Carriers of this gene will age at a greatly increased rate.</description>
+		<iconPath>EBSG/Gene_FasterAging</iconPath>
+		<displayOrderInCategory>7</displayOrderInCategory>
+        <statFactors>
+            <LearningRateFactor>1.80</LearningRateFactor>
+        </statFactors>
+		<biologicalAgeTickFactorFromAgeCurve>
+			<points>
+				<li>(13, 2)</li>
+				<li>(18, 2)</li>
+			</points>
+		</biologicalAgeTickFactorFromAgeCurve>
+	</GeneDef>
+
+	<GeneDef ParentName="EBSGAging">
+		<defName>EBSG_VeryFastAging</defName>
+		<label>very fast aging</label>
+		<description>Carriers of this gene will age at a greatly increased rate.</description>
+		<iconPath>EBSG/Gene_FasterAging</iconPath>
+		<displayOrderInCategory>6</displayOrderInCategory>
+        <statFactors>
+            <LearningRateFactor>1.60</LearningRateFactor>
+        </statFactors>
+		<biologicalAgeTickFactorFromAgeCurve>
+			<points>
+				<li>(13, 1.75)</li>
+				<li>(18, 1.75)</li>
+			</points>
+		</biologicalAgeTickFactorFromAgeCurve>
+	</GeneDef>
+
+	<GeneDef ParentName="EBSGAging">
+		<defName>EBSG_FastAging</defName>
+		<label>faster aging</label>
+		<description>Carriers of this gene will age at an increased rate.</description>
+		<iconPath>EBSG/Gene_FasterAging</iconPath>
+		<displayOrderInCategory>5</displayOrderInCategory>
+        <statFactors>
+            <LearningRateFactor>1.40</LearningRateFactor>
+        </statFactors>
+		<biologicalAgeTickFactorFromAgeCurve>
+			<points>
+				<li>(13, 1.5)</li>
+				<li>(18, 1.5)</li>
+			</points>
+		</biologicalAgeTickFactorFromAgeCurve>
+	</GeneDef>
+
+	<GeneDef ParentName="EBSGAging">
+		<defName>EBSG_SlightlyFastAging</defName>
+		<label>slightly faster aging</label>
+		<description>Carriers of this gene will age at a slightly increased rate.</description>
+		<iconPath>EBSG/Gene_FasterAging</iconPath>
+		<displayOrderInCategory>4</displayOrderInCategory>
+        <statFactors>
+            <LearningRateFactor>1.20</LearningRateFactor>
+        </statFactors>
+		<biologicalAgeTickFactorFromAgeCurve>
+			<points>
+				<li>(13, 1.25)</li>
+				<li>(18, 1.25)</li>
+			</points>
+		</biologicalAgeTickFactorFromAgeCurve>
+	</GeneDef>
+
+	<GeneDef ParentName="EBSGAging">
+		<defName>EBSG_SlightlySlowAging</defName>
+		<label>slightly slower aging</label>
+		<description>Carriers of this gene will age at a slightly slower rate.</description>
+		<iconPath>EBSG/Gene_SlowerAging</iconPath>
+		<displayOrderInCategory>3</displayOrderInCategory>
+        <statFactors>
+            <LearningRateFactor>0.80</LearningRateFactor>
+        </statFactors>
+		<biologicalAgeTickFactorFromAgeCurve>
+			<points>
+				<li>(13, 0.75)</li>
+				<li>(18, 0.75)</li>
+			</points>
+		</biologicalAgeTickFactorFromAgeCurve>
+	</GeneDef>
+
+	<GeneDef ParentName="EBSGAging">
+		<defName>EBSG_SlowAging</defName>
+		<label>slower aging</label>
+		<description>Carriers of this gene will age at a slower rate.</description>
+		<iconPath>EBSG/Gene_SlowerAging</iconPath>
+		<displayOrderInCategory>2</displayOrderInCategory>
+        <statFactors>
+            <LearningRateFactor>0.60</LearningRateFactor>
+        </statFactors>
+		<biologicalAgeTickFactorFromAgeCurve>
+			<points>
+				<li>(13, 0.5)</li>
+				<li>(18, 0.5)</li>
+			</points>
+		</biologicalAgeTickFactorFromAgeCurve>
+	</GeneDef>
+
+	<GeneDef ParentName="EBSGAging">
+		<defName>EBSG_VerySlowAging</defName>
+		<label>very slow aging</label>
+		<description>Carriers of this gene will age at a much slower rate.</description>
+		<iconPath>EBSG/Gene_SlowerAging</iconPath>
+		<displayOrderInCategory>1</displayOrderInCategory>
+        <statFactors>
+            <LearningRateFactor>0.40</LearningRateFactor>
+        </statFactors>
+		<biologicalAgeTickFactorFromAgeCurve>
+			<points>
+				<li>(13, 0.25)</li>
+				<li>(18, 0.25)</li>
+			</points>
+		</biologicalAgeTickFactorFromAgeCurve>
+	</GeneDef>
+
+	<GeneDef ParentName="EBSGChildAging">
+		<defName>EBSG_ExtremelyFastAging_Child</defName>
+		<label>extremely short childhood</label>
+		<description>Carriers of this gene will age at a greatly increased rate as a child. This will cause it to take less time for the child to be ready to work.</description>
+		<iconPath>EBSG/Gene_LongerChildhood</iconPath>
+		<displayOrderInCategory>17</displayOrderInCategory>
+        <statFactors>
+            <LearningRateFactor>1.80</LearningRateFactor>
+        </statFactors>
+		<biologicalAgeTickFactorFromAgeCurve>
+			<points>
+				<li>(13, 2)</li>
+				<li>(18, 1)</li>
+			</points>
+		</biologicalAgeTickFactorFromAgeCurve>
+	</GeneDef>
+
+	<GeneDef ParentName="EBSGChildAging">
+		<defName>EBSG_VeryFastAging_Child</defName>
+		<label>very short childhood</label>
+		<description>Carriers of this gene will age at a greatly increased rate as a child. This will cause it to take less time for the child to be ready to work.</description>
+		<iconPath>EBSG/Gene_LongerChildhood</iconPath>
+		<displayOrderInCategory>16</displayOrderInCategory>
+        <statFactors>
+            <LearningRateFactor>1.60</LearningRateFactor>
+        </statFactors>
+		<biologicalAgeTickFactorFromAgeCurve>
+			<points>
+				<li>(13, 1.75)</li>
+				<li>(18, 1)</li>
+			</points>
+		</biologicalAgeTickFactorFromAgeCurve>
+	</GeneDef>
+
+	<GeneDef ParentName="EBSGChildAging">
+		<defName>EBSG_FastAging_Child</defName>
+		<label>shorter childhood</label>
+		<description>Carriers of this gene will age at an increased rate as a child. This will cause it to take less time for the child to be ready to work.</description>
+		<iconPath>EBSG/Gene_LongerChildhood</iconPath>
+		<displayOrderInCategory>15</displayOrderInCategory>
+        <statFactors>
+            <LearningRateFactor>1.40</LearningRateFactor>
+        </statFactors>
+		<biologicalAgeTickFactorFromAgeCurve>
+			<points>
+				<li>(13, 1.5)</li>
+				<li>(18, 1)</li>
+			</points>
+		</biologicalAgeTickFactorFromAgeCurve>
+	</GeneDef>
+
+	<GeneDef ParentName="EBSGChildAging">
+		<defName>EBSG_SlightlyFastAging_Child</defName>
+		<label>slightly shorter childhood</label>
+		<description>Carriers of this gene will age at a slightly increased rate as a child. This will cause it to take less time for the child to be ready to work.</description>
+		<iconPath>EBSG/Gene_LongerChildhood</iconPath>
+		<displayOrderInCategory>14</displayOrderInCategory>
+        <statFactors>
+            <LearningRateFactor>1.20</LearningRateFactor>
+        </statFactors>
+		<biologicalAgeTickFactorFromAgeCurve>
+			<points>
+				<li>(13, 1.25)</li>
+				<li>(18, 1)</li>
+			</points>
+		</biologicalAgeTickFactorFromAgeCurve>
+	</GeneDef>
+
+	<GeneDef ParentName="EBSGChildAging">
+		<defName>EBSG_SlightlySlowAging_Child</defName>
+		<label>slightly longer childhood</label>
+		<description>Carriers of this gene will age at a slightly slower rate as a child. This will allow the colony to gain mood bonuses from happy children for a longer amount of time.</description>
+		<iconPath>EBSG/Gene_ShorterChildhood</iconPath>
+		<displayOrderInCategory>13</displayOrderInCategory>
+        <statFactors>
+            <LearningRateFactor>0.80</LearningRateFactor>
+        </statFactors>
+		<biologicalAgeTickFactorFromAgeCurve>
+			<points>
+				<li>(13, 0.75)</li>
+				<li>(18, 1)</li>
+			</points>
+		</biologicalAgeTickFactorFromAgeCurve>
+	</GeneDef>
+
+	<GeneDef ParentName="EBSGChildAging">
+		<defName>EBSG_SlowAging_Child</defName>
+		<label>longer childhood</label>
+		<description>Carriers of this gene will age at a slower rate as a child. This will allow the colony to gain mood bonuses from happy children for a longer amount of time.</description>
+		<iconPath>EBSG/Gene_ShorterChildhood</iconPath>
+		<displayOrderInCategory>12</displayOrderInCategory>
+        <statFactors>
+            <LearningRateFactor>0.60</LearningRateFactor>
+        </statFactors>
+		<biologicalAgeTickFactorFromAgeCurve>
+			<points>
+				<li>(13, 0.5)</li>
+				<li>(18, 1)</li>
+			</points>
+		</biologicalAgeTickFactorFromAgeCurve>
+	</GeneDef>
+
+	<GeneDef ParentName="EBSGChildAging">
+		<defName>EBSG_VerySlowAging_Child</defName>
+		<label>very long childhood</label>
+		<description>Carriers of this gene will age at a much slower rate as a child. This will allow the colony to gain mood bonuses from happy children for a longer amount of time.</description>
+		<iconPath>EBSG/Gene_ShorterChildhood</iconPath>
+		<displayOrderInCategory>11</displayOrderInCategory>
+        <statFactors>
+            <LearningRateFactor>0.40</LearningRateFactor>
+        </statFactors>
+		<biologicalAgeTickFactorFromAgeCurve>
+			<points>
+				<li>(13, 0.25)</li>
+				<li>(18, 1)</li>
+			</points>
+		</biologicalAgeTickFactorFromAgeCurve>
+	</GeneDef>
+</Defs>
