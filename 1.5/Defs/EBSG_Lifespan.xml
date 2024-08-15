@@ -28,7 +28,7 @@
 		<defName>EBSG_ExtremelyFastAging</defName>
 		<label>extremely fast aging</label>
 		<description>Carriers of this gene will age at a greatly increased rate.</description>
-		<iconPath>EBSG/Gene_FasterAging</iconPath>
+		<iconPath>EBSG/Gene_ExtremelyFastAging</iconPath>
 		<displayOrderInCategory>7</displayOrderInCategory>
         <statFactors>
             <LearningRateFactor>1.80</LearningRateFactor>
@@ -45,7 +45,7 @@
 		<defName>EBSG_VeryFastAging</defName>
 		<label>very fast aging</label>
 		<description>Carriers of this gene will age at a greatly increased rate.</description>
-		<iconPath>EBSG/Gene_FasterAging</iconPath>
+		<iconPath>EBSG/Gene_ExtremelyFastAging</iconPath>
 		<displayOrderInCategory>6</displayOrderInCategory>
         <statFactors>
             <LearningRateFactor>1.60</LearningRateFactor>
@@ -130,7 +130,7 @@
 		<defName>EBSG_VerySlowAging</defName>
 		<label>very slow aging</label>
 		<description>Carriers of this gene will age at a much slower rate.</description>
-		<iconPath>EBSG/Gene_SlowerAging</iconPath>
+		<iconPath>EBSG/Gene_ExtremelySlowAging</iconPath>
 		<displayOrderInCategory>1</displayOrderInCategory>
         <statFactors>
             <LearningRateFactor>0.40</LearningRateFactor>
@@ -147,7 +147,7 @@
 		<defName>EBSG_ExtremelyFastAging_Child</defName>
 		<label>extremely short childhood</label>
 		<description>Carriers of this gene will age at a greatly increased rate as a child. This will cause it to take less time for the child to be ready to work.</description>
-		<iconPath>EBSG/Gene_LongerChildhood</iconPath>
+		<iconPath>EBSG/Gene_ExtremelyShortChildhood</iconPath>
 		<displayOrderInCategory>17</displayOrderInCategory>
         <statFactors>
             <LearningRateFactor>1.80</LearningRateFactor>
@@ -164,7 +164,7 @@
 		<defName>EBSG_VeryFastAging_Child</defName>
 		<label>very short childhood</label>
 		<description>Carriers of this gene will age at a greatly increased rate as a child. This will cause it to take less time for the child to be ready to work.</description>
-		<iconPath>EBSG/Gene_LongerChildhood</iconPath>
+		<iconPath>EBSG/Gene_ExtremelyShortChildhood</iconPath>
 		<displayOrderInCategory>16</displayOrderInCategory>
         <statFactors>
             <LearningRateFactor>1.60</LearningRateFactor>
@@ -181,7 +181,7 @@
 		<defName>EBSG_FastAging_Child</defName>
 		<label>shorter childhood</label>
 		<description>Carriers of this gene will age at an increased rate as a child. This will cause it to take less time for the child to be ready to work.</description>
-		<iconPath>EBSG/Gene_LongerChildhood</iconPath>
+		<iconPath>EBSG/Gene_ShorterChildhood</iconPath>
 		<displayOrderInCategory>15</displayOrderInCategory>
         <statFactors>
             <LearningRateFactor>1.40</LearningRateFactor>
@@ -198,7 +198,7 @@
 		<defName>EBSG_SlightlyFastAging_Child</defName>
 		<label>slightly shorter childhood</label>
 		<description>Carriers of this gene will age at a slightly increased rate as a child. This will cause it to take less time for the child to be ready to work.</description>
-		<iconPath>EBSG/Gene_LongerChildhood</iconPath>
+		<iconPath>EBSG/Gene_ShorterChildhood</iconPath>
 		<displayOrderInCategory>14</displayOrderInCategory>
         <statFactors>
             <LearningRateFactor>1.20</LearningRateFactor>
@@ -215,7 +215,7 @@
 		<defName>EBSG_SlightlySlowAging_Child</defName>
 		<label>slightly longer childhood</label>
 		<description>Carriers of this gene will age at a slightly slower rate as a child. This will allow the colony to gain mood bonuses from happy children for a longer amount of time.</description>
-		<iconPath>EBSG/Gene_ShorterChildhood</iconPath>
+		<iconPath>EBSG/Gene_LongerChildhood</iconPath>
 		<displayOrderInCategory>13</displayOrderInCategory>
         <statFactors>
             <LearningRateFactor>0.80</LearningRateFactor>
@@ -232,7 +232,7 @@
 		<defName>EBSG_SlowAging_Child</defName>
 		<label>longer childhood</label>
 		<description>Carriers of this gene will age at a slower rate as a child. This will allow the colony to gain mood bonuses from happy children for a longer amount of time.</description>
-		<iconPath>EBSG/Gene_ShorterChildhood</iconPath>
+		<iconPath>EBSG/Gene_LongerChildhood</iconPath>
 		<displayOrderInCategory>12</displayOrderInCategory>
         <statFactors>
             <LearningRateFactor>0.60</LearningRateFactor>
@@ -249,7 +249,7 @@
 		<defName>EBSG_VerySlowAging_Child</defName>
 		<label>very long childhood</label>
 		<description>Carriers of this gene will age at a much slower rate as a child. This will allow the colony to gain mood bonuses from happy children for a longer amount of time.</description>
-		<iconPath>EBSG/Gene_ShorterChildhood</iconPath>
+		<iconPath>EBSG/Gene_ExtremelyLongChildhood</iconPath>
 		<displayOrderInCategory>11</displayOrderInCategory>
         <statFactors>
             <LearningRateFactor>0.40</LearningRateFactor>
