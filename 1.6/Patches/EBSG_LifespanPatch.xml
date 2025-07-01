@@ -34,32 +34,16 @@
     <Operation Class="PatchOperationConditional">
         <xpath>Defs/GeneDef[defName="AG_FasterAging"]</xpath>
         <match Class="PatchOperationAdd">
-            <xpath>Defs/GeneDef[defName="AG_FasterAging"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+            <xpath>Defs/GeneDef[defName="AG_FasterAging"]/modExtensions/li[@Class="VEF.Genes.GeneExtension"]</xpath>
             <value><hideGene>true</hideGene></value>
-        </match>
-    </Operation>
-
-    <Operation Class="PatchOperationConditional">
-        <xpath>Defs/XenotypeDef/genes/li[text()="AG_FasterAging"]</xpath>
-        <match Class="PatchOperationReplace">
-            <xpath>Defs/XenotypeDef/genes/li[text()="AG_FasterAging"]</xpath>
-            <value><li>EBSG_SlightlyFastAging</li></value>
         </match>
     </Operation>
 
     <Operation Class="PatchOperationConditional">
         <xpath>Defs/GeneDef[defName="AG_SlowerAging"]</xpath>
         <match Class="PatchOperationAdd">
-            <xpath>Defs/GeneDef[defName="AG_SlowerAging"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+            <xpath>Defs/GeneDef[defName="AG_SlowerAging"]/modExtensions/li[@Class="VEF.Genes.GeneExtension"]</xpath>
             <value><hideGene>true</hideGene></value>
-        </match>
-    </Operation>
-
-    <Operation Class="PatchOperationConditional">
-        <xpath>Defs/XenotypeDef/genes/li[text()="AG_SlowerAging"]</xpath>
-        <match Class="PatchOperationReplace">
-            <xpath>Defs/XenotypeDef/genes/li[text()="AG_SlowerAging"]</xpath>
-            <value><li>EBSG_SlightlySlowerAging</li></value>
         </match>
     </Operation>
 
